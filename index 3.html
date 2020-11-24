@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+ <head>
+  <title>Деревня Подъяково</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Деревня Подъяково, расположенная в Кемеровской области">
+  <meta name="keywords" content="Подъяково, деревня, Кедровый бор, Загородный клуб">
+  <meta name="pragma" content="no-cache">
+  <link rel="stylesheet" type="text/css" href="main%203.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manjari&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="ico/2000px-Go-home.svg_.png" type="image/x-icon">
+  <meta name="viewport" content="width=1024, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-git.min.js"></script>
+ </head>
+ <body leftmargin="80" rightmargin="80"> 
+ <a href="index.html"><h1><img src="ico/2000px-Go-home.svg_.png" width="35" height="35"> Под<b>ъ</b>яково</h1></a>
+      
+ <hr>
+ 
+  <table width= 100% ><tr align="center"><td><a href="index 2.html" >Фотографии</a></td><td><a href="index.html">Назад</a></td></tr>
+  </table>
+  
+ <hr>
+
+ <div id="upbutton">
+
+<script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            if ($('#upbutton').is(':hidden')) {
+                $('#upbutton').css({opacity : 1}).fadeIn('slow');
+            }
+        } else { $('#upbutton').stop(true, false).fadeOut('fast'); }
+    });
+    $('#upbutton').click(function() {
+        $('html, body').stop().animate({scrollTop : 0}, 300);
+    });
+</script>
+</div>
+
+<h6>
+<iframe width="600" height="380" style="margin-right: 20px;" src="https://www.youtube.com/embed/8MLt48fSM4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="600" height="380" src="https://www.youtube.com/embed/QvDoJFRVmEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</h6>
+<hr>
+   
+   <h6>Разработчик - Дудин И.И.</h6>
+   <h6>Gmail - ilyadudin24@gmail.com</h6>
+     
+ </body>  
+</html>

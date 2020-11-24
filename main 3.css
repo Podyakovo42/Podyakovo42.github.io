@@ -1,0 +1,46 @@
+html{
+    font-family: 'Manjari', sans-serif;
+	background-image:url(ico/white-scratone.png);
+
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size:16px;
+	transition: 0.2s;
+}
+a:hover{
+	font-size: 18px;
+    transform: scale(1.1);
+}
+
+b {
+	color: red;
+}
+h1{
+    text-shadow:  #C0C0C0 2px 2px 0;              
+	font-size:42px;
+}
+table{
+	border-collapse: collapse;
+	border: 0px ;
+	table-layout: fixed;
+ 
+}
+td {
+	width: 2%;
+}
+h6 {
+	text-align: center;
+}
+#upbutton {
+    background: url("ico/upbutton_120587.png") no-repeat top left;
+    height: 67px;
+    width: 80px;
+    bottom: 30px;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
