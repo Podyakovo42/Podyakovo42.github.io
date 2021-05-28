@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png"> <!--Иконка-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--Шрифты-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap" rel="stylesheet"> <!--Шрифты-->
+    <script src="https://code.jquery.com/jquery-git.min.js"></script>
+    <title>Подъяково</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" width="230">
+                <div class="logo-text">Подъяково</div></a>
+            </div> <!--Логотип-->
+
+            <div class="menu-logo">
+                <ul>
+                    <li><a href="https://yandex.ru/maps/?ll=85.835732%2C55.566509&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=14.71" target="_blank">Деревня на карте</a></li>
+                    <li style="padding-right: 25px;"><a href="photos.html">Фотографии</a></li>
+                    <li style="padding-right: 25px;"><a href="index.html">Главная</a></li>
+                </ul>
+            </div> <!--Менюшка-->
+            
+            <hr>
+        </div>
+
+        <div class="main">
+            <div class="galery-photo" style="text-align: center; width: 100%;">
+                <div class="video"><iframe width="450" height="300" src="https://www.youtube.com/embed/8MLt48fSM4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="video"><iframe width="450" height="300" src="https://www.youtube.com/embed/QvDoJFRVmEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+             </div>
+        </div>
+
+        <div class="footer">
+            <hr>
+            <div class="text-footer" style="margin-top: 15px;">© copyright</div>
+            <div class="text-footer">Разработчик: Дудин Илья</div>
+            <div class="text-footer">Почта: ilyadudin24@gmail.com</div>
+            
+        </div>
+
+    </div>
+
+    <div id="upbutton">
+        <script>
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 120) {
+                    if ($('#upbutton').is(':hidden')) {
+                        $('#upbutton').css({opacity : 1}).fadeIn('slow');
+                    }
+                } else { $('#upbutton').stop(true, false).fadeOut('fast'); }
+            });
+            $('#upbutton').click(function() {
+                $('html, body').stop().animate({scrollTop : 0}, 350);
+            });
+        </script>
+    </div>
+</body>
+</html>
