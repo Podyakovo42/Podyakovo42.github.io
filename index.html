@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png"> <!--Иконка-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--Шрифты-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap" rel="stylesheet"> <!--Шрифты-->
+    <script src="https://code.jquery.com/jquery-git.min.js"></script>
+    <title>Подъяково</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" width="230">
+                <div class="logo-text">Подъяково</div></a>
+            </div> <!--Логотип-->
+
+            <div class="menu-logo">
+                <ul>
+                    <li><a href="https://yandex.ru/maps/?ll=85.835732%2C55.566509&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=14.71" target="_blank">Деревня на карте</a></li>
+                    <li style="padding-right: 25px;"><a href="videos.html">Видео</a></li>
+                    <li style="padding-right: 25px;"><a href="photos.html">Фотографии</a></li>
+                </ul>
+            </div> <!--Менюшка-->
+            
+            <hr>
+        </div>
+
+        <div class="main">
+
+        <div class="width-index-main">
+           <div class="text-block-main"> <b> Подъя́ково </b> - деревня в Щегловском сельском поселении Кемеровского района Кемеровской области. Находится на правом берегу реки Томь, в 25 километрах от города Кемерово. Ближайшие деревни и сёла - Старая Балахонка, Подонино, Щегловский.</div>
+
+               <div class="photo-index"><a href="index-photo.html"><img src="img/index-1.jpg" alt="index-1" width="600" class="img-index"></a></div>
+
+          <div class="text-punct">Немного истории</div>
+
+          <div class="text-block-main">Деревня была основана в 1700 году крестьянами Подъяковыми. Среди основателей были также фамилии Терёхиных и Пашиных. В июле 1962 года в деревне Подъяково состоялся VIII Всероссийский слет юных туристов, в котором приняли участие 350 человек из разных уголков Советского Союза.</div>
+
+            <div class="catalog">
+               <img src="img/index-2.png" alt="index-2" class="img-index" width="350px" height="260px" style="margin-top: 15px;">
+               <img src="img/index-3.png" alt="index-3" class="img-index" width="350px" height="260px" style="margin-left: 15px; margin-right: 15px;">
+               <img src="img/index-4.png" alt="index-4" class="img-index" width="350px" height="260px" style="margin-top: 15px; ">
+            </div>
+
+           <div class="galery"><a href="photos.html">▲ Перейти в фотографии ▲</a></div>
+
+           <div class="text-punct">Полезные ссылки</div>
+
+           <div class="text-block-main">  В санатории «Кедровый бор» проводится ежегодный мотофестиваль «Полный газ». В деревне есть часовня Казанской иконы Божией Матери, гостиничный комплекс «Загородный Клуб», летний лагерь Кемеровского университета. Всего насчитывается 7 улиц и 3 реки (Большая Подикова, Малая Подикова и Томь).</div>
+
+               <div class="puti">
+               <a href="https://kedbor.ru" target="_blank"><img src="img/ico/logo2.png" alt="logo2" width="150" style="margin-right: 25px;"></a>
+               <a href="https://sobory.ru/article/?object=23157" target="_blank"><img src="img/ico/logo-4.png" alt="logo4" width="150" style="margin-left: 25px;"></a>
+               </div>
+
+           <div class="text-block-main">  В Подъяково ходят следующие автобусы: №161, №161у, №161Э, №186, №540, №559. Их рассписание вы можете узнать на сайте GoOnBus.ru. Благодаря Авито вы можете взглянуть на активные объявления в Подъяково. Нажав на следующую кнопку вас перебросит на этот сайт.</div>
+
+               <div class="puti">
+            <a href="https://goonbus.ru/kemerovo" target="_blank"><img src="img/ico/logo3.png" alt="logo2" width="150" style="margin-right: 25px;"></a>
+            <a href="https://www.avito.ru/kemerovo?q=Подъяково" target="_blank"><img src="img/ico/avito.png" alt="avito" width="150" style="margin-left: 25px;"></a>
+               </div>
+        </div>
+
+
+        </div>
+
+        <div class="footer">
+            <hr>
+            <div class="text-footer" style="margin-top: 15px;">© copyright</div>
+            <div class="text-footer">Разработчик: Дудин Илья</div>
+            <div class="text-footer">Почта: ilyadudin24@gmail.com</div>
+            
+        </div>
+
+    </div>
+
+    <div id="upbutton">
+        <script>
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 120) {
+                    if ($('#upbutton').is(':hidden')) {
+                        $('#upbutton').css({opacity : 1}).fadeIn('slow');
+                    }
+                } else { $('#upbutton').stop(true, false).fadeOut('fast'); }
+            });
+            $('#upbutton').click(function() {
+                $('html, body').stop().animate({scrollTop : 0}, 350);
+            });
+        </script>
+    </div>
+</body>
+</html>
