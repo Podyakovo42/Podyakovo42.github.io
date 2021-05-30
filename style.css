@@ -101,6 +101,7 @@ hr{
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
+    сursor: zoom-in;
 }
 .catalog{
     display: inline-block;
