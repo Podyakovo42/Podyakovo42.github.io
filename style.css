@@ -10,8 +10,7 @@ html{
 }
 body{
     width: 100%;
-    display:flex;
-    flex-direction: colum;
+
 }
 .container{
     width: 90%;
@@ -19,6 +18,8 @@ body{
     min-width: 70%;
     max-width: 90%;
     margin: 0 auto;
+    display:flex;
+    flex-direction: colum;
 }
 .header{
     width: 100%;
