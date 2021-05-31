@@ -18,8 +18,8 @@ body{
     min-width: 70%;
     max-width: 90%;
     margin: 0 auto;
-    display:flex;
-    flex-direction: colum;
+
+
 }
 .header{
     width: 100%;
@@ -72,7 +72,7 @@ hr{
     height: 100%;
     padding-top: 20px;
     padding-bottom: 70px;
-    flex-grow: 1;
+
 }
 .width-index-main{
     margin: 0 auto;
