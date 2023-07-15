@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    text-decoration: none;
+}
+.container{
+    width: 1500px;
+    height: auto;
+
+    margin: auto;
+    padding: auto;
+}
+
+/*Голова сайта*/
+.header, .footer{
+    width: 1500px;
+    height: 153px;
+    display: flex;
+}
+hr{
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+    border: 1px solid #C1C1C1;
+}
+.header .logo{
+    width: 303px;
+    height: auto;
+    
+    padding: 48px 0px;
+}
+.header .menu{
+    width: 354px;
+    height: auto;
+
+    text-align: right;
+
+    margin-left: auto;
+    margin-right: 0px;
+}
+.header .menu .link1, .link2, .link3{
+    display: inline-block;
+    
+    padding-top: 85px;
+
+    font: normal 17px;
+}
+.link1, .link2{
+    padding-right: 30px;
+}
+
+/*Блок с контентом: общие свойства*/
+.up-content, .history, .links, .video-play, .slider{
+    width: 1190px;
+
+    margin: 100px auto auto auto;
+    padding: auto;
+}
+
+/*Блок о деревне*/
+.up-content{
+    height: 405px;
+}
+.headtext-up-content{
+    padding: 55px 0px 0px 224px;
+    width: 108px;
+    text-align: center;
+}
+.headtext-up-content p{
+    font-weight: bold;
+    font-size: 22px;
+}
+.text-up-content{
+    padding: 50px 0px 0px 0px;
+    display: inline-block;
+    text-align: center;
+    
+    width: 555px;
+    height: 144px;
+}
+.text-up-content p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.img-up-content img{
+    width: 540px;
+    height: 405px;
+
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.img-up-content{
+    margin: -82px 0 0 0;
+    float: right;
+}
+
+/*Блок история*/
+.history{
+    height: 653px;
+}
+.head-text-history{
+    width: 181px;
+    height: 26px;
+    text-align: center;
+
+    margin: 0px 0px 0px 504px;
+}
+.head-text-history p{
+    font-weight: bold;
+    font-size: 22px;
+}
+.text-history{
+    width: 843px;
+    height: 192px;
+    padding: 50px 0 0 170px;
+    text-align: center;
+}
+.text-history p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.img-history{
+    width: 1190px;
+    height: 260px;
+    padding: 60px 0 0 0;
+
+    display: inline-block;
+}
+.img-history img{
+    width: 350px;
+    height: 260px;
+
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.img-history .img-history2{
+    margin-left: 67px;
+    margin-right: 66px;
+}
+.img-history .img-history3{
+    float: right;
+}
+.text-bottom-img-history{
+    width: 510px;
+    height: 15px;
+    text-align: center;
+    padding: 48px 0 0 0;
+    margin: 0 auto;    
+}
+.text-bottom-img-history p{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+/*Блок ссылок*/
+.links{
+    width: 1190px;
+    height: 450px;
+}
+.head-text-links{
+    width: 191px;
+    height: 26px;
+    text-align: center;
+
+    margin: 0px 0px 0px 500px;
+}
+.head-text-links p{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/*Левая Часть*/
+.text-and-link-left{
+    display: inline-block;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.text-and-link-left img{
+    width: 160px;
+    margin: 30px 0 0 0;
+}
+.info-link-left1, .info-link-left2{
+    width: 500px;
+}
+.info-link-left1, .info-link-left2 p{
+    font-weight: normal;
+    font-size: 16px;
+}
+.info-link-left1{
+    height: 198px;
+    margin: 0 0 48px 0;
+}
+.info-link-left2{
+    height: 128px;
+}
+
+/*Правая Часть*/
+.text-and-link-right{
+    display: block;
+    float: right;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.text-and-link-right img{
+    width: 160px;
+}
+.info-link-right1 img{
+    margin: 78px 0 0 20px;
+}
+.info-link-right2 img{
+    margin: 30px 0 0 0;
+}
+.info-link-right1, .info-link-right2{
+    width: 500px;
+}
+.info-link-right1, .info-link-right2 p{
+    font-weight: normal;
+    font-size: 16px;
+}
+.info-link-right1{
+    height: 198px;
+    margin: 0 0 48px 0;
+}
+.info-link-right2{
+    height: 128px;
+}
+
+/*Футер*/
+.footer{
+    height: 140px;
+}
+.footer p{
+    margin: 47px 0 0 0;
+    line-height: 1.5;
+    font-size: 17px;
+    font-weight: normal;
+}
+.ico-footer{
+    width: 100px;
+    height: 40px;
+    margin: 40px 0 0 auto; 
+}
+.ico-footer .img-footer1{
+    margin: 0 16px 0 0;
+}
+
+/*Фотографии*/
+.slider{
+    height: 1718px;
+}
+.string1 h2{
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.string2 h2, .string3 h2, .string4 h2{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.slider img{
+    width: 360px;
+    height: 260px;
+    display: inline;
+    
+
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.45);
+}
+.img-left{
+    float: left;
+}
+.img-center{
+    margin: 0 55px 0 55px;
+}
+.img-right{
+    float: right;
+}
+.big-photo{
+    text-align: center;
+}
+.big-photo img{
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.45);
+
+    width: 850px;
+    margin: 100px 0 0 0 ;
+}
+.big-photo .back{
+    display: block;
+    width: 90px;
+    border-radius: none;
+    box-shadow: none;
+    margin: 100px auto;
+}
+/*Видео*/
+.video-play{
+    height: 735px;
+}
+.video-play p{
+    font-size: 12px; 
+    margin: 12px 0 0 0;
+    text-align: center;
+
+}
+.video-play p a{
+    text-decoration: underline; 
+        
+}
+.video1, .video2, .video3{
+    width: 440px;
+    height: 330px;
+    display: block;
+}
+iframe{
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.45);
+    border: 0;
+}
+.video1{
+    float: right;
+}
+.video3{
+    margin: 100px auto 0px auto;
+}
+
+
+/*Анимации и оживление*/
+
+/*Изображения*/
+img{
+    transition: 0.25s;
+}
+.content img:hover{
+    transform: scale(105%);
+}
+.footer img:hover{
+    opacity: 0.75;
+}
+/*Ссылки*/
+.menu a, .text-bottom-img-history a, .video-play a{
+    transition: 0.3s;
+}
+.menu a:hover, .text-bottom-img-history a:hover, .video-play a:hover{
+    opacity: 0.75;
+}
+
+
+/*Медиазапросы*/
+
+@media (max-width: 1500px){
+    .container{
+        width: 1280px;
+        height: auto;
+
+        margin: auto;
+        padding: auto;
+    }
+    .header{
+        width: 1280px;
+    }
+    .header .logo{
+        margin: 0 0 0 20px;
+    }
+    .header .menu{
+        margin-right: 20px;   
+    }
+    .footer{
+        width: 1280px;
+    }
+    .footer p{
+        margin: 47px 0 0 20px;
+    }
+    .footer .img-footer1{
+        margin: 0 5px 0 0;
+    }
+}
